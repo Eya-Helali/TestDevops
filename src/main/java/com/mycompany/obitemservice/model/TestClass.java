@@ -1,11 +1,5 @@
 package com.mycompany.obitemservice.model;
 
-import lombok.Data;
-
-@Data
-public class TestModel {
-
+public class TestClass {
     private String id;
-
-
 }
