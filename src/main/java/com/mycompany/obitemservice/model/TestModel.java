@@ -6,9 +6,6 @@ import lombok.Data;
 public class TestModel {
 
     private String id;
-    private String name;
-    private String email;
-    private String test;
-    private String eya;
+
 
 }
