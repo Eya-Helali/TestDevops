@@ -9,5 +9,6 @@ public class TestModel {
     private String name;
     private String email;
     private String test;
+    private String eya;
 
 }
