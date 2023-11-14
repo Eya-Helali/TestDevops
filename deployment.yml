@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mon-application-deployment
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: mon-application
+  template:
+    metadata:
+      labels:
+        app: mon-application
+    spec:
+      containers:
+        - name:  devcont 
+          image: eyahelali/app:v2
+          ports:
+            - containerPort: 8082
